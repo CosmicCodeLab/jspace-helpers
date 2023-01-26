@@ -4,7 +4,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/cosmiccodelab/jspace-helpers)
 
 A simple package who handle multiple functions
-
+- [Documentation](https://cosmiccodelab.github.io/jspace-helpers/
+  )
 ## Install
 
 With npm

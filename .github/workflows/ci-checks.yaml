@@ -23,6 +23,6 @@ jobs:
       - name: Lint
         run: yarn lint
       - name: Prettier
-        run: yarn prettier -c
+        run: yarn prettier --check "src/**/*.ts"
       - name: Tests
         run: yarn test

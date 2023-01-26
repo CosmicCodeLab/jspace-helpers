@@ -3,4 +3,4 @@
 
 yarn lint
 yarn test
-npx prettier -c
+npx prettier --check "src/**/*.ts"

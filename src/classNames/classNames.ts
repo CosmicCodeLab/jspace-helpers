@@ -1,7 +1,8 @@
 /**
- * Take array of classes and return this array in one string with comma separation
+ * Take array of string and return this array in one string with comma separation
  * @param classes - Array of string
- * @example```tsx
+ * @example
+ * ```tsx
  * <div className={classNames('my-class', 'my-second-class', 'my-third-class')}>
  *   Styled div
  * </div>

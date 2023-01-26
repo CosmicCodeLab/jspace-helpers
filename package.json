@@ -27,14 +27,11 @@
   },
   "scripts": {
     "build": "rm -rf lib; tsc",
+    "publish:beta": "npm publish --tag beta",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "test": "vitest --run",
     "coverage": "vitest --coverage",
-    "prepare": "husky install && yarn build",
-    "prepublishOnly": "yarn test && yarn lint",
-    "preversion": "yarn lint",
-    "version": "yarn format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "prepare": "husky install"
   }
 }

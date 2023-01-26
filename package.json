@@ -1,5 +1,5 @@
 {
-  "name": "jspace-helpers",
+  "name": "@cosmiccodelab/jspace-helpers",
   "version": "1.0.0",
   "description": "Collection of JS helper",
   "repository": "git@github.com:CosmicCodeLab/jspace-helpers.git",

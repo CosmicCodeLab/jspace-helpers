@@ -1,6 +1,6 @@
 {
   "name": "@cosmiccodelab/jspace-helpers",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.1",
   "description": "Collection of JS helper",
   "repository": "git@github.com:CosmicCodeLab/jspace-helpers.git",
   "author": "cotontigeh",
@@ -28,7 +28,8 @@
   },
   "scripts": {
     "build": "rm -rf lib; tsc",
-    "publish:beta": "npm publish --tag beta",
+    "dev": "rm -rf lib; tsc -w",
+    "beta": "npm publish --tag beta --access public",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "test": "vitest --run",

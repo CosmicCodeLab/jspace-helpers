@@ -1,10 +1,12 @@
 # jspace-helpers
-![GitHub branch checks state](https://img.shields.io/github/checks-status/cosmiccodelab/jspace-helpers/main?label=main%20branch)
-![GitHub](https://img.shields.io/github/license/cosmiccodelab/jspace-helpers)
+![npm (scoped)](https://img.shields.io/npm/v/@cosmiccodelab/jspace-helpers?label=Release)
+![GitHub branch checks state](https://img.shields.io/github/checks-status/cosmiccodelab/jspace-helpers/main?label=build)
 ![GitHub repo size](https://img.shields.io/github/repo-size/cosmiccodelab/jspace-helpers)
+![GitHub](https://img.shields.io/github/license/cosmiccodelab/jspace-helpers)
 
 A simple package who handle multiple functions
-
+- [Documentation](https://cosmiccodelab.github.io/jspace-helpers/
+  )
 ## Install
 
 With npm
@@ -32,7 +34,7 @@ console.log(classes)
 
 Instead of import root folder and compile entire library you can pick what you whant :
 ```ts
-import { classNames } from "@cosmiccodelab/jspace-helpers/classNames";
+import classNames from "@cosmiccodelab/jspace-helpers/lib/classNames";
 
 const classes = className(
   'class1 class2', 

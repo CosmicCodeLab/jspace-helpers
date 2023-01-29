@@ -1,6 +1,6 @@
 {
   "name": "@cosmiccodelab/jspace-helpers",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "Collection of JS helper",
   "repository": "git@github.com:CosmicCodeLab/jspace-helpers.git",
   "author": "cotontigeh",
